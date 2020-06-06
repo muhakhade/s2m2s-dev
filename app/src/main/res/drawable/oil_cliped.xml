@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/oil_empty"/>
+    </item>
+    <item>
+        <clip
+            android:clipOrientation="vertical"
+            android:gravity="bottom"
+            android:drawable="@drawable/oil_full"/>
+    </item>
+</layer-list>
